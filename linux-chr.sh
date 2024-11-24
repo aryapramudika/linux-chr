@@ -14,7 +14,7 @@ success() { echo -e "${GREEN}[SUCCESS] $1${NC}"; }
 warn() { echo -e "${YELLOW}[WARN] $1${NC}"; }
 
 # Def values
-CHR_VERSION="7.13.3"
+CHR_VERSION="7.16.1"
 USERNAME="admin"  # Fixed username
 PASSWORD="admin"
 DISK_DEVICE="/dev/vda"
@@ -32,7 +32,7 @@ show_help() {
     echo "  -h, --help              Show this help message"
     echo
     echo "Example:"
-    echo "  $0 -v 7.13.3 -p mypassword -d /dev/vda"
+    echo "  $0 -v 7.16.1 -p mypassword -d /dev/vda"
 }
 
 # Parse arguments
